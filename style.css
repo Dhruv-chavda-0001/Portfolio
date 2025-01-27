@@ -29,6 +29,7 @@ body {
     text-decoration: none;
     color: white;
     font-size: 18px;
+    text-shadow: #FC0 1px 0 10px;
 }
 
 #name-section h1 {
@@ -42,6 +43,15 @@ body {
     height: 200px;
     border-radius: 50%;
     margin: 20px 0;
+}
+i:hover{
+    text-shadow: white 1px 0 20px;
+}
+img:hover{
+    box-shadow: white 1px 0 20px;
+}
+p :hover{
+    text-shadow: #FC0 1px 0 10px;
 }
 
 #social-icons a {
